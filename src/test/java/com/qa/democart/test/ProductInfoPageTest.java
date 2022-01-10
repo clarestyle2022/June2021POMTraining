@@ -34,6 +34,8 @@ public void productInfoTest() {
 	softAssert.assertAll();   // this wil complile all and tell you test that pass or fail
 	//for multiple assertion in a test case use soft assertion. if one test fails the script will stop, wit soft assert all test will run
 }
+
+// ideally one test should have one assertion . in canse for multiple sue soft assertion so all can be executed without stopping if all got failed
 		
 	}
 

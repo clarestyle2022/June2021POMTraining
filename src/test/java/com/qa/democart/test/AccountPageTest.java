@@ -21,7 +21,7 @@ import io.qameta.allure.Story;
 
 @Epic("EPIC 101: Design Account page for demo cart application....")
 @Story("US 102: Account page with different features")
-@Listeners(TestAllureListener.class)
+@Listeners(TestAllureListener.class)   // hack for screenshot if its not showing in report.
 
 
 public class AccountPageTest extends BaseTest {

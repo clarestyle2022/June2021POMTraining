@@ -31,7 +31,7 @@ public class LoginPage {
 	
 	
 	//page actions/page methods/ functionality of beahavious of the page/ no assertion
-	@Step("getting loging page title...")
+	@Step("getting login page title...")
 	public String getLoginPageTitle() {
 		return elementUtil.waitForTitleIs(Constants.LOGIN_PAGE_TITLE, 10);
 	}

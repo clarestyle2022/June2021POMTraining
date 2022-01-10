@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="14" passed="14">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Demo Cart Regression Suite" duration-ms="51239" started-at="2022-01-10T01:57:41Z" finished-at="2022-01-10T01:58:32Z">
+    <groups>
+    </groups>
+    <test name="Login Page Test" duration-ms="19770" started-at="2022-01-10T01:57:41Z" finished-at="2022-01-10T01:58:00Z">
+      <class name="com.qa.democart.test.LoginPageTest">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.qa.democart.test.LoginPageTest@65ec8b24]" name="SetUp" is-config="true" duration-ms="10701" started-at="2022-01-10T01:57:41Z" finished-at="2022-01-10T01:57:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="loginPageTitleTest()[pri:1, instance:com.qa.democart.test.LoginPageTest@65ec8b24]" name="loginPageTitleTest" duration-ms="201" started-at="2022-01-10T01:57:51Z" finished-at="2022-01-10T01:57:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method status="PASS" signature="loginPageHeaderTest()[pri:2, instance:com.qa.democart.test.LoginPageTest@65ec8b24]" name="loginPageHeaderTest" duration-ms="1077" started-at="2022-01-10T01:57:52Z" finished-at="2022-01-10T01:57:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageHeaderTest -->
+        <test-method status="PASS" signature="forgotPwdTest()[pri:3, instance:com.qa.democart.test.LoginPageTest@65ec8b24]" name="forgotPwdTest" duration-ms="1032" started-at="2022-01-10T01:57:53Z" finished-at="2022-01-10T01:57:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotPwdTest -->
+        <test-method status="PASS" signature="loginTest()[pri:4, instance:com.qa.democart.test.LoginPageTest@65ec8b24]" name="loginTest" duration-ms="5471" started-at="2022-01-10T01:57:54Z" finished-at="2022-01-10T01:58:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.democart.test.LoginPageTest@65ec8b24]" name="tearDown" is-config="true" duration-ms="784" started-at="2022-01-10T01:58:00Z" finished-at="2022-01-10T01:58:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.democart.test.LoginPageTest -->
+    </test> <!-- Login Page Test -->
+    <test name="Account Page Test" duration-ms="51239" started-at="2022-01-10T01:57:41Z" finished-at="2022-01-10T01:58:32Z">
+      <class name="com.qa.democart.test.AccountPageTest">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.qa.democart.test.AccountPageTest@365a6a43]" name="SetUp" is-config="true" duration-ms="10701" started-at="2022-01-10T01:57:41Z" finished-at="2022-01-10T01:57:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="accPageSetUp()[pri:0, instance:com.qa.democart.test.AccountPageTest@365a6a43]" name="accPageSetUp" is-config="true" duration-ms="5073" started-at="2022-01-10T01:57:51Z" finished-at="2022-01-10T01:57:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accPageSetUp -->
+        <test-method status="PASS" signature="accPageTitleTest()[pri:1, instance:com.qa.democart.test.AccountPageTest@365a6a43]" name="accPageTitleTest" duration-ms="32" started-at="2022-01-10T01:57:56Z" finished-at="2022-01-10T01:57:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accPageTitleTest -->
+        <test-method status="PASS" signature="accPageHeaderTest()[pri:2, instance:com.qa.democart.test.AccountPageTest@365a6a43]" name="accPageHeaderTest" duration-ms="968" started-at="2022-01-10T01:57:56Z" finished-at="2022-01-10T01:57:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accPageHeaderTest -->
+        <test-method status="PASS" signature="accSectionsTest()[pri:3, instance:com.qa.democart.test.AccountPageTest@365a6a43]" name="accSectionsTest" duration-ms="126" started-at="2022-01-10T01:57:57Z" finished-at="2022-01-10T01:57:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accSectionsTest -->
+        <test-method status="PASS" signature="logoutLinkExistTest()[pri:4, instance:com.qa.democart.test.AccountPageTest@365a6a43]" name="logoutLinkExistTest" duration-ms="983" started-at="2022-01-10T01:57:58Z" finished-at="2022-01-10T01:57:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutLinkExistTest -->
+        <test-method status="PASS" signature="searchTest(java.lang.String)[pri:5, instance:com.qa.democart.test.AccountPageTest@365a6a43]" name="searchTest" duration-ms="4378" started-at="2022-01-10T01:57:59Z" data-provider="getSearchData" finished-at="2022-01-10T01:58:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Macbook Pro]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="searchTest(java.lang.String)[pri:5, instance:com.qa.democart.test.AccountPageTest@365a6a43]" name="searchTest" duration-ms="3899" started-at="2022-01-10T01:58:03Z" data-provider="getSearchData" finished-at="2022-01-10T01:58:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Macbook Air]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="searchTest(java.lang.String)[pri:5, instance:com.qa.democart.test.AccountPageTest@365a6a43]" name="searchTest" duration-ms="3748" started-at="2022-01-10T01:58:07Z" data-provider="getSearchData" finished-at="2022-01-10T01:58:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Apple]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="selectProductTest(java.lang.String, java.lang.String)[pri:6, instance:com.qa.democart.test.AccountPageTest@365a6a43]" name="selectProductTest" duration-ms="6638" started-at="2022-01-10T01:58:13Z" data-provider="getProductSelectData" finished-at="2022-01-10T01:58:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Macbook]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[MacBook Pro]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectProductTest -->
+        <test-method status="PASS" signature="selectProductTest(java.lang.String, java.lang.String)[pri:6, instance:com.qa.democart.test.AccountPageTest@365a6a43]" name="selectProductTest" duration-ms="5198" started-at="2022-01-10T01:58:20Z" data-provider="getProductSelectData" finished-at="2022-01-10T01:58:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Macbook]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[MacBook Air]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectProductTest -->
+        <test-method status="PASS" signature="selectProductTest(java.lang.String, java.lang.String)[pri:6, instance:com.qa.democart.test.AccountPageTest@365a6a43]" name="selectProductTest" duration-ms="5527" started-at="2022-01-10T01:58:25Z" data-provider="getProductSelectData" finished-at="2022-01-10T01:58:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iMac]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[iMac]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectProductTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.democart.test.AccountPageTest@365a6a43]" name="tearDown" is-config="true" duration-ms="876" started-at="2022-01-10T01:58:31Z" finished-at="2022-01-10T01:58:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.democart.test.AccountPageTest -->
+    </test> <!-- Account Page Test -->
+  </suite> <!-- Demo Cart Regression Suite -->
+</testng-results>

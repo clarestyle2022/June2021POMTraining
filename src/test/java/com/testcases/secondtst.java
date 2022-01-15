@@ -2,10 +2,8 @@ package com.testcases;
 
 import org.testng.annotations.Test;
 
-public class FirstTest {
+public class secondtst {
   @Test
   public void f() {
-	  System.out.println("first test");
-	  System.out.print("");
   }
 }

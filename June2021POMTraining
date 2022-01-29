@@ -1,0 +1,30 @@
+[33mcommit 1239adff2a604be3361ea1ccbd14235e45c419af[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morig/main[m[33m)[m
+Author: clarestyle2022 <clarestyle@live.com>
+Date:   Sat Jan 15 19:05:16 2022 +0000
+
+    my new automation code
+
+[33mcommit db5ec4bef21e4a00f8dd8de37095f127790d9369[m
+Author: clarestyle2022 <clarestyle@live.com>
+Date:   Sat Jan 15 17:43:14 2022 +0000
+
+    this is test files
+
+[33mcommit c3f1e3b932c334c1151860b88f760abdd9bd1f28[m
+Author: LolaStyle <clarebare2002@gmail.com>
+Date:   Sat Jan 15 11:01:21 2022 +0000
+
+    third message
+
+[33mcommit 135feb2e5cda09daa4ef1d6e3774c77d2af23af2[m
+Merge: 2db2dcc 2ca5402
+Author: LolaStyle <clarebare2002@gmail.com>
+Date:   Sat Jan 15 10:54:04 2022 +0000
+
+    Merge branch 'main' of git@github.com:LolaStyle/SeleniumRepo.git into main
+
+[33mcommit 2db2dcc2e8e2f11a0fa4742e152ed2fd53092e85[m
+Author: LolaStyle <clarebare2002@gmail.com>
+Date:   Sat Jan 15 10:32:12 2022 +0000
+
+    first changes

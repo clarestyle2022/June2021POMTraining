@@ -20,7 +20,7 @@
 	</test>
 
 
-	<test name="Account Page Test">
+	<test name="Account Page Test...">
 		<classes>
 			<class name="com.qa.democart.test.AccountPageTest" />
 		</classes>

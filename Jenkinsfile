@@ -12,7 +12,8 @@ pipeline
         {
             steps 
             {
-                 git 'git@github.com:clarestyle2022/June2021POMTraining.git'
+                 git 'https://github.com/clarestyle2022/June2021POMTraining.git'
+                 
                  sh "mvn -Dmaven.test.failure.ignore=true clean package"
             }
             post 
@@ -30,7 +31,7 @@ pipeline
         stage('Test') {
             steps {
                 catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE') {
-                    git 'git@github.com:clarestyle2022/June2021POMTraining.git'
+                    git 'https://github.com/clarestyle2022/June2021POMTraining.git'
                     sh "mvn clean install"
                 }
             }

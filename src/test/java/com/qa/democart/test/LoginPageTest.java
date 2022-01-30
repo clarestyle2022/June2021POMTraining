@@ -48,11 +48,11 @@ public class LoginPageTest extends BaseTest {
 		}
 		
 		@Description("login page test...")
-		@Severity(SeverityLevel.BLOCKER)
+		@Severity(SeverityLevel.NORMAL)
 		@Test(priority = 4)
 		public void loginTest() {
-			//AccountPage accPage = loginPage.doLogin(prop.getProperty("username").trim(), prop.getProperty("password"));  //trim if space is given
-			AccountPage accPage = loginPage.doLogin(System.getProperty("username"), System.getProperty("password"));  // username and password will be supplied from jenkins
+			AccountPage accPage = loginPage.doLogin(prop.getProperty("username").trim(), prop.getProperty("password"));  //trim if space is given
+			//AccountPage accPage = loginPage.doLogin(System.getProperty("username"), System.getProperty("password"));  // username and password will be su
 			Assert.assertTrue(accPage.isLogOutLinkExist());
 		}
 		

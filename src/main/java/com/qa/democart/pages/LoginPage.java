@@ -48,7 +48,7 @@ public class LoginPage {
 	
 	@Step("login to application with username{0} and password {1}..")  //0 uesrsname and 1 password are the numbers of paramter 
 	public AccountPage doLogin(String un, String pwd) {
-		System.out.println( un + ":" + pwd);
+		System.out.println("===========" +un + ":" + pwd +"==========");
 		elementUtil.doSendKeys(emailId, un);
 		elementUtil.doSendKeys(password, pwd);
 		elementUtil.doClick(loginButton); 

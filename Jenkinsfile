@@ -1,8 +1,9 @@
 pipeline 
 {
     agent any
+    
     tools {
-        maven 'maven'
+        maven 'maven'    // maven is the tool name given in manage jenken/global config/maveninstallation
     }
 
     stages 
@@ -11,7 +12,7 @@ pipeline
         {
             steps 
             {
-                 git 'https://github.com/jglick/simple-maven-project-with-tests.git'
+                 git 'git@github.com:clarestyle2022/June2021POMTraining.git'
                  sh "mvn -Dmaven.test.failure.ignore=true clean package"
             }
             post 
@@ -29,7 +30,7 @@ pipeline
         stage('Test') {
             steps {
                 catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE') {
-                    git 'https://github.com/naveenanimation20/June2021POMSeries.git'
+                    git 'git@github.com:clarestyle2022/June2021POMTraining.git'
                     sh "mvn clean install"
                 }
             }

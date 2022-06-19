@@ -31,6 +31,7 @@ public class ProductInfoPage {
 	}
 
 	public String getProductHeaderText() {
+		// get text from product header
 		return elementUtil.doGetText(productHeader);
 	}
 
@@ -39,9 +40,14 @@ public class ProductInfoPage {
 	}
 
 	public Map<String, String> getProductInfo() {
+		// declare hashmap object as productInfoMap
 		productInfoMap = new HashMap<String, String>();
-		productInfoMap.put("name", getProductHeaderText()); // creating your own key value for product header
-
+		// put the name of product by using key: name and value: getProductHeaderText();
+		// get product name
+		String sProdName = getProductHeaderText();
+		productInfoMap.put("name", sProdName); // creating your own key value for product header
+		System.out.println("get prodname:" + productInfoMap.get("name"));
+//get product details sucha as brand product code availability
 		List<WebElement> metaDataList = elementUtil.getElements(productMetaData);
 		System.out.println("total product meta.data list: " + metaDataList.size());
 

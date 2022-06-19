@@ -47,7 +47,8 @@ public class AccountPage {
 	@Step("getAccSectionList")
 	  public List<String> getAccountSectionList() {   // or use wait for elementvisibility
 	  List<String>accSecValueList = new ArrayList<String>();
-	   List<WebElement>accSecList =elementUtil.getElements(accSections); for(WebElement e : accSecList) {
+	   List<WebElement>accSecList =elementUtil.getElements(accSections); 
+	   for(WebElement e : accSecList) {
 	  accSecValueList.add(e.getText());
 	  }
 	   //Collections.sort(accSecValueList);

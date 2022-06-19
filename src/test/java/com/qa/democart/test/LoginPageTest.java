@@ -21,7 +21,7 @@ import io.qameta.allure.Story;
 
 public class LoginPageTest extends BaseTest {
 	
-	
+
 		@Description("login page title test...")   //@discription is from allure libary
 		@Severity(SeverityLevel.NORMAL)
 		@Test(priority = 1)

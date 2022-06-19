@@ -5,6 +5,7 @@ import java.util.Properties;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Parameters;
 import org.testng.asserts.SoftAssert;
 
 import com.qa.democart.factory.DriverFactory;
@@ -28,16 +29,25 @@ public class BaseTest {
 	ProductInfoPage productInfoPage;
 	RegistrationPage regPage;
 	
+	
+	@Parameters({"browser", "browserversion"})   //coming from testng xml file forselenoid
 	@BeforeTest
-	public void SetUp() {
+	public void SetUp(String browser, String browserVersion) {
 		softAssert = new SoftAssert();
 		df = new DriverFactory();
 		prop = df.initProperties();
+		
+		if(browser!=null) {
+			prop.setProperty("browser", browser);
+			prop.setProperty("browserversion", browserVersion);
+		}
+		
 		driver = df.initDriver(prop);  //need driver that is defined in all methods 
 	    loginPage = new LoginPage(driver);  // need driver for Loininpage
 	}
 	
-	@AfterTest public void tearDown() { 
+	@AfterTest
+	public void tearDown() { 
 		driver.quit(); 
 		}
 

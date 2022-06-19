@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Demo Cart Regression Suite" thread-count="5"
+	parallel="tests" verbose="2">
+
+	<listeners>
+		<listener
+			class-name="com.qa.democart.listeners.AnnotationTransformer" />
+		<listener
+			class-name="com.qa.democart.listeners.ExtentReportListener" />
+		<listener
+			class-name="com.qa.democart.listeners.TestAllureListener" />
+	</listeners>
+
+	<test name="Login Page Test - ch - 89">
+		<parameter name="browser" value="chrome" />
+		<parameter name="browserversion" value="89" />
+		<classes>
+			<class name="com.qa.democart.test.LoginPageTest" />
+		</classes>
+	</test>
+
+
+
+	<test name="Login Page Test - ch - 90">
+		<parameter name="browser" value="chrome" />
+		<parameter name="browserversion" value="90" />
+		<classes>
+			<class name="com.qa.democart.test.LoginPageTest" />
+		</classes>
+	</test>
+
+
+
+
+	<test name="Account Page Test - ch - 90">
+		<parameter name="browser" value="chrome" />
+		<parameter name="browserversion" value="90" />
+		<classes>
+			<class name="com.qa.democart.test.AccountPageTest" />
+		</classes>
+	</test>
+
+
+	<test name="Account Page Test - ch - 89">
+		<parameter name="browser" value="chrome" />
+		<parameter name="browserversion" value="89" />
+		<classes>
+			<class name="com.qa.democart.test.AccountPageTest" />
+		</classes>
+	</test>
+
+
+</suite>
+
+
+
+
